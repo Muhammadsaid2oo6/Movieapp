@@ -2,10 +2,7 @@ import React from "react";
 
 const IMG_API = "https://image.tmdb.org/t/p/w1280";
 
-  function on(sas) {
-    console.log(sas)
 
-  }
  
 
 const Movie = (movie) => (
@@ -14,7 +11,6 @@ const Movie = (movie) => (
     <div className="movie-info">
       <h6>{movie.title}</h6>
       <span>{movie.vote_average}</span>
-      <button onClick={()=> on(movie)}>buy</button>
     </div>
 
     <div className="movie-over">
